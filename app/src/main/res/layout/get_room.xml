@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/room_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:height="50dp"
+        android:text="剩余床位数目"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/room_title">
+
+        <TextView
+            android:id="@+id/build5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="108dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="60dp"
+            android:height="50dp"
+            android:text="5号楼："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build5_1"
+            android:layout_alignBottom="@+id/build5_1"
+            android:layout_toEndOf="@+id/build5_1"
+            android:layout_toRightOf="@+id/build5_1"
+            android:height="50dp"
+            android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build13_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/build5_1"
+            android:layout_toLeftOf="@+id/build5_2"
+            android:layout_toStartOf="@+id/build5_2"
+            android:height="50dp"
+            android:text="13号楼："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build13_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build13_1"
+            android:layout_alignBottom="@+id/build13_1"
+            android:layout_toEndOf="@+id/build5_1"
+            android:layout_toRightOf="@+id/build5_1"
+            android:height="50dp"
+            android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build14_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/build13_1"
+            android:layout_toLeftOf="@+id/build5_2"
+            android:layout_toStartOf="@+id/build5_2"
+            android:height="50dp"
+            android:text="14号楼："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build14_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build14_1"
+            android:layout_alignBottom="@+id/build14_1"
+            android:layout_toEndOf="@+id/build5_1"
+            android:layout_toRightOf="@+id/build5_1"
+            android:height="50dp"
+            android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/build14_1"
+            android:layout_toLeftOf="@+id/build5_2"
+            android:layout_toStartOf="@+id/build5_2"
+            android:height="50dp"
+            android:text=" 8号楼："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build8_1"
+            android:layout_alignBottom="@+id/build8_1"
+            android:layout_toEndOf="@+id/build5_1"
+            android:layout_toRightOf="@+id/build5_1"
+            android:height="50dp"
+            android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/build8_1"
+            android:layout_toLeftOf="@+id/build5_2"
+            android:layout_toStartOf="@+id/build5_2"
+            android:height="50dp"
+            android:text=" 9号楼："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/build9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build9_1"
+            android:layout_alignBottom="@+id/build8_1"
+            android:layout_toEndOf="@+id/build5_1"
+            android:layout_toRightOf="@+id/build5_1"
+            android:height="50dp"
+            android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
