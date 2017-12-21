@@ -25,6 +25,179 @@
         android:layout_height="match_parent"
         android:layout_below="@id/room_title">
 
+        <TextView
+            android:id="@+id/stu1_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="89dp"
+            android:height="50dp"
+            android:text="同住人1学号："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu1_id2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu1_id1"
+            android:layout_alignBottom="@+id/stu1_id1"
+            android:layout_toEndOf="@+id/stu1_id1"
+            android:layout_toRightOf="@+id/stu1_id1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="学号1"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stu1_vcode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu1_id1"
+            android:layout_alignRight="@+id/stu1_id1"
+            android:layout_below="@+id/stu1_id1"
+            android:height="50dp"
+            android:text="同住人1校验码："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu1_vcode2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu1_vcode1"
+            android:layout_alignBottom="@+id/stu1_vcode1"
+            android:layout_toEndOf="@+id/stu1_vcode1"
+            android:layout_toRightOf="@+id/stu1_vcode1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="校验码1"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stu2_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu1_vcode1"
+            android:layout_alignRight="@+id/stu1_vcode1"
+            android:layout_below="@+id/stu1_vcode1"
+            android:height="50dp"
+            android:text="同住人2学号："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu2_id2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu2_id1"
+            android:layout_alignBottom="@+id/stu2_id1"
+            android:layout_toEndOf="@+id/stu1_vcode1"
+            android:layout_toRightOf="@+id/stu1_vcode1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="学号2"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stu2_vcode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu2_id1"
+            android:layout_alignRight="@+id/stu2_id1"
+            android:layout_below="@+id/stu2_id1"
+            android:height="50dp"
+            android:text="同住人2校验码："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu2_vcode2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu2_vcode1"
+            android:layout_alignBottom="@+id/stu2_vcode1"
+            android:layout_toEndOf="@+id/stu2_id1"
+            android:layout_toRightOf="@+id/stu2_id1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="校验码2"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stu3_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu2_vcode1"
+            android:layout_alignRight="@+id/stu2_vcode1"
+            android:layout_below="@+id/stu2_vcode1"
+            android:height="50dp"
+            android:text="同住人3学号："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu3_id2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu3_id1"
+            android:layout_alignBottom="@+id/stu3_id1"
+            android:layout_toEndOf="@+id/stu3_id1"
+            android:layout_toRightOf="@+id/stu3_id1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="学号3"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stu3_vcode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu3_id1"
+            android:layout_alignRight="@+id/stu3_id1"
+            android:layout_below="@+id/stu3_id1"
+            android:height="50dp"
+            android:text="同住人3校验码："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/stu3_vcode2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/stu3_vcode1"
+            android:layout_alignBottom="@+id/stu3_vcode1"
+            android:layout_toEndOf="@+id/stu3_vcode1"
+            android:layout_toRightOf="@+id/stu3_vcode1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="校验码3"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="19dp"
+            android:height="50dp"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+
 
 
 

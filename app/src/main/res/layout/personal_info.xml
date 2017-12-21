@@ -26,19 +26,16 @@
         android:layout_below="@id/info_title">
 
         <TextView
-        android:id="@+id/stu_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="49dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="28dp"
-        android:height="50dp"
-        android:text="学     号："
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+            android:id="@+id/stu_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/query"
+            android:layout_toStartOf="@+id/query"
+            android:height="50dp"
+            android:text="学     号："
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/stu_id2"
