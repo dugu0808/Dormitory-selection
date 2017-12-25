@@ -54,7 +54,9 @@ public class Personal extends AppCompatActivity implements View.OnClickListener{
         SharedPreferences pref = getSharedPreferences("data",MODE_PRIVATE);
         String uName = pref.getString("stuid","");
         Log.d("personal", uName);
-        
+
+        searchDormitory.setOnClickListener(this);
+
         //get请求
         final String informationUrl = "https://api.mysspku.com/index.php/V1/MobileCourse/getDetail?stuid="+uName;
         queryInformation(informationUrl);
@@ -120,8 +122,8 @@ public class Personal extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v) {
         if(v.getId() == R.id.query){
             Log.d("查询","search");
-            //Intent intent = new Intent(Personal.this, Dormitory.class);
-            //startActivity(intent);
+            Intent intent = new Intent(Personal.this, Dormitory.class);
+            startActivity(intent);
 
         }
     }
