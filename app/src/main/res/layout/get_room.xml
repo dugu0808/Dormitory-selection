@@ -54,6 +54,27 @@
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/select5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build5_2"
+            android:layout_alignBottom="@+id/build5_2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/build5_2"
+            android:layout_toRightOf="@+id/build5_2"
+            android:height="30dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="选择"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/build13_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,6 +96,27 @@
             android:layout_toRightOf="@+id/build5_1"
             android:height="50dp"
             android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/select13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build13_2"
+            android:layout_alignBottom="@+id/build13_2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/build5_2"
+            android:layout_toRightOf="@+id/build5_2"
+            android:height="30dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="选择"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -104,6 +146,27 @@
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/select14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build14_2"
+            android:layout_alignBottom="@+id/build14_2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/build5_2"
+            android:layout_toRightOf="@+id/build5_2"
+            android:height="30dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="选择"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/build8_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -129,6 +192,27 @@
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/select8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build8_2"
+            android:layout_alignBottom="@+id/build8_2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/build5_2"
+            android:layout_toRightOf="@+id/build5_2"
+            android:height="30dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="选择"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/build9_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -150,6 +234,27 @@
             android:layout_toRightOf="@+id/build5_1"
             android:height="50dp"
             android:text="数目"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/select9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/build9_2"
+            android:layout_alignBottom="@+id/build9_2"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/build5_2"
+            android:layout_toRightOf="@+id/build5_2"
+            android:height="30dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="选择"
             android:textColor="@color/white"
             android:textSize="20sp" />
 

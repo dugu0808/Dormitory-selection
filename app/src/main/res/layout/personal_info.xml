@@ -225,14 +225,20 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
-        <TextView
+        <Button
             android:id="@+id/query"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/stu_grade"
             android:layout_centerHorizontal="true"
             android:height="50dp"
-            android:text="选择宿舍"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="   选择宿舍   "
             android:textColor="@color/white"
             android:textSize="25sp" />
 

@@ -17,9 +17,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etPassword"
         android:layout_centerHorizontal="true"
-        android:height="50dp"
-        android:gravity="center_vertical"
-        android:text="下一步"
+        android:layout_marginTop="28dp"
+        android:height="30dp"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="2dip"
+        android:text="   下一步   "
         android:textColor="@color/white"
         android:textSize="20sp" />
 

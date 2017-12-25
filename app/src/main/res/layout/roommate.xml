@@ -48,7 +48,7 @@
             android:layout_alignBottom="@+id/stu1_id1"
             android:layout_toEndOf="@+id/stu1_id1"
             android:layout_toRightOf="@+id/stu1_id1"
-            android:background="@color/white"
+            android:background="@drawable/radius_drawable_bg"
             android:ems="10"
             android:hint="学号1"
             android:inputType="number"
@@ -74,10 +74,9 @@
             android:layout_alignBottom="@+id/stu1_vcode1"
             android:layout_toEndOf="@+id/stu1_vcode1"
             android:layout_toRightOf="@+id/stu1_vcode1"
-            android:background="@color/white"
+            android:background="@drawable/radius_drawable_bg"
             android:ems="10"
             android:hint="校验码1"
-            android:inputType="number"
             android:textSize="20sp" />
 
         <TextView
@@ -100,7 +99,7 @@
             android:layout_alignBottom="@+id/stu2_id1"
             android:layout_toEndOf="@+id/stu1_vcode1"
             android:layout_toRightOf="@+id/stu1_vcode1"
-            android:background="@color/white"
+            android:background="@drawable/radius_drawable_bg"
             android:ems="10"
             android:hint="学号2"
             android:inputType="number"
@@ -129,7 +128,6 @@
             android:background="@color/white"
             android:ems="10"
             android:hint="校验码2"
-            android:inputType="number"
             android:textSize="20sp" />
 
         <TextView
@@ -152,7 +150,7 @@
             android:layout_alignBottom="@+id/stu3_id1"
             android:layout_toEndOf="@+id/stu3_id1"
             android:layout_toRightOf="@+id/stu3_id1"
-            android:background="@color/white"
+            android:background="@drawable/radius_drawable_bg"
             android:ems="10"
             android:hint="学号3"
             android:inputType="number"
@@ -178,10 +176,9 @@
             android:layout_alignBottom="@+id/stu3_vcode1"
             android:layout_toEndOf="@+id/stu3_vcode1"
             android:layout_toRightOf="@+id/stu3_vcode1"
-            android:background="@color/white"
+            android:background="@drawable/radius_drawable_bg"
             android:ems="10"
             android:hint="校验码3"
-            android:inputType="number"
             android:textSize="20sp" />
 
         <TextView
@@ -191,8 +188,14 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="19dp"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
             android:height="50dp"
-            android:text="提交"
+            android:text="   提交   "
             android:textColor="@color/white"
             android:textSize="25sp" />
 
