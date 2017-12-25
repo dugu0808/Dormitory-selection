@@ -28,6 +28,12 @@ public class Dormitory extends AppCompatActivity implements View.OnClickListener
     private TextView button14;
     private TextView button8;
     private TextView button9;
+
+    private TextView button5_2;
+    private TextView button13_2;
+    private TextView button14_2;
+    private TextView button8_2;
+    private TextView button9_2;
     private static final int DORMITORY_INFORMATION = 1;
 
 
@@ -73,6 +79,12 @@ public class Dormitory extends AppCompatActivity implements View.OnClickListener
         button14 = findViewById(R.id.build14_2);
         button8 = findViewById(R.id.build8_2);
         button9 = findViewById(R.id.build9_2);
+
+        button5_2 = findViewById(R.id.select5);
+        button13_2 = findViewById(R.id.select13);
+        button14_2 = findViewById(R.id.select14);
+        button8_2 = findViewById(R.id.select8);
+        button9_2 = findViewById(R.id.select9);
     }
 
     //更新信息
@@ -113,6 +125,42 @@ public class Dormitory extends AppCompatActivity implements View.OnClickListener
         Intent intent = new Intent(Dormitory.this, Selection.class);
         SharedPreferences.Editor editor = getSharedPreferences("data", MODE_PRIVATE).edit();
         switch (v.getId()) {
+            case R.id.select5:
+                if(Integer.parseInt(button5.getText().toString()) > 0){
+                    editor.putString("building","5");
+                    editor.commit();
+                    startActivity(intent);
+                }
+                break;
+            case R.id.select13:
+
+                if(Integer.parseInt(button13.getText().toString())>0){
+                    editor.putString("building", "13");
+                    editor.commit();
+                    startActivity(intent);
+                }
+                break;
+            case R.id.select14:
+                if(Integer.parseInt(button14.getText().toString()) > 0){
+                    editor.putString("building", "14");
+                    editor.commit();
+                    startActivity(intent);
+                }
+                break;
+            case R.id.select8:
+                if(Integer.parseInt(button8.getText().toString()) > 0){
+                    editor.putString("building", "8");
+                    editor.commit();
+                    startActivity(intent);
+                }
+                break;
+            case R.id.select9:
+                if(Integer.parseInt(button9.getText().toString()) >0 ){
+                    editor.putString("building","9");
+                    editor.commit();
+                    startActivity(intent);
+                }
+                break;
 
         }
     }
