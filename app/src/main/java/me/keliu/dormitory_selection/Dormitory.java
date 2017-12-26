@@ -57,11 +57,11 @@ public class Dormitory extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.get_room);
         initView();
-        button5.setOnClickListener(this);
-        button8.setOnClickListener(this);
-        button9.setOnClickListener(this);
-        button13.setOnClickListener(this);
-        button14.setOnClickListener(this);
+        button5_2.setOnClickListener(this);
+        button8_2.setOnClickListener(this);
+        button9_2.setOnClickListener(this);
+        button13_2.setOnClickListener(this);
+        button14_2.setOnClickListener(this);
 
         SharedPreferences pref = getSharedPreferences("data", MODE_PRIVATE);
         String gender = pref.getString("gender", "");
@@ -122,7 +122,7 @@ public class Dormitory extends AppCompatActivity implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(Dormitory.this, Selection.class);
+        Intent intent = new Intent(Dormitory.this, SelectionNumber.class);
         SharedPreferences.Editor editor = getSharedPreferences("data", MODE_PRIVATE).edit();
         switch (v.getId()) {
             case R.id.select5:
