@@ -7,6 +7,8 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -139,6 +141,29 @@ public class Roommate extends AppCompatActivity implements View.OnClickListener{
             }
 
         }
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.bar_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.personalInformation:
+                Intent toPersonal = new Intent(this, Personal.class);
+                startActivity(toPersonal);
+                break;
+            case R.id.back:
+                Intent intentBack = new Intent(this, MainActivity.class);
+                startActivity(intentBack);
+                break;
+            default:
+        }
+        return true;
 
     }
 }
