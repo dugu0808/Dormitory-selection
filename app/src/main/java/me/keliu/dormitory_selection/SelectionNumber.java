@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SelectionNumber extends AppCompatActivity implements View.OnClickListener{
 
@@ -44,25 +45,30 @@ public class SelectionNumber extends AppCompatActivity implements View.OnClickLi
             case R.id.num1:
                 editor.putString("number","1");
                 editor.commit();
-                Log.d("个人选","宿舍");
+                Log.d("单人选","单人同住");
+                Toast.makeText(this,"选择成功", Toast.LENGTH_LONG).show();
+                Intent intent0 = new Intent(this, Personal.class);
+                startActivity(intent0);
                 break;
             case R.id.num2:
                 editor.putString("number", "2");
                 editor.commit();
                 Intent intent = new Intent(SelectionNumber.this, Roommate.class);
-                Log.d("选择2栋","fdsf");
+                Log.d("双人选","双人同住");
                 startActivity(intent);
                 break;
             case R.id.num3:
                 editor.putString("number", "3");
                 editor.commit();
                 Intent intent1 = new Intent(SelectionNumber.this, Roommate.class);
+                Log.d("三人选","三人同住");
                 startActivity(intent1);
                 break;
             case R.id.num4:
                 editor.putString("number", "4");
                 editor.commit();
                 Intent intent2 = new Intent(SelectionNumber.this, Roommate.class);
+                Log.d("四人选","四人同住");
                 startActivity(intent2);
                 break;
             default:
